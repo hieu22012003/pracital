@@ -12,9 +12,9 @@ namespace bt2
     {
         static void Main(string[] args)
         {
-            Home a = new Lion(250, "Lion");
+            Home a = new Lion(200, "Lion");
             a.Show();
-            a = new Tiger(200, "Tiger");
+            a = new Tiger(100, "Tiger");
             a.Show();
         }
     }
